@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imágenes aleatorias</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script defer src="main.js"></script>
+  <main>
+    <h1>Lyrics of your favorite songs</h1>
+    <form>
+        <p>
+          <label for="artist">Artist</label>
+          <input type="text" name="artist_name" id="artist" placeholder="Billie Eilish" required>
+        </p>
+        <p>
+          <label for="song">Song</label>
+          <input type="text" name="song_name" id="song" placeholder="Happier Than Ever" required>
+        </p>
+        <input type="submit" value="Get lyrics" class="lyrics-button">
+    </form>
+    <h2 class="artist"></h2>
+    <em class="song"></em>
+    <p class="lyrics"></p>
+  </main>
+</body>
+</html>

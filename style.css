@@ -1,0 +1,27 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.lyrics-button {
+  border: none;
+  cursor: pointer;
+  background-color: #5BA4FC;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.artist {
+  margin-bottom: -3px;
+}
+
+.song {
+  color: gray;
+}
