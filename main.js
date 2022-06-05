@@ -15,6 +15,8 @@ async function getLyrics (artist, song) {
     songElement.innerText = song
     lyricsElement.innerText = data.lyrics
   } else {
+    artistElement.innerText = ''
+    songElement.innerText = ''
     lyricsElement.innerText = data.error
   }
 }
